@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+    let i = prompt("몇 명입니까?")
+    let intValue = parseInt(i);
+
+    for(let i = 1; i <=intValue; i++){
+        let g = prompt("점수를 입력하세요");
+        let getpoint = parseInt(g);
+        if(getpoint == 100 & getpoint >= 90){
+            document.writeln("A")
+        }
+        else if(getpoint < 90 & getpoint >=80){
+            document.writeln("B")
+        }
+        else if(getpoint < 80 & getpoint >= 70){
+            document.writeln("C")
+        }
+        else if(getpoint < 70){
+            document.writeln("F")
+        }
+        else{
+            document.writeln("잘못된 값입니다.")
+        }
+        document.write("<br>")
+
+    }
+</script>
+</body>
+</html>

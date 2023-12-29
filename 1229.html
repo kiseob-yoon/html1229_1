@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x = 10; //오른쪽에 있는 숫자를 왼쪽에 대입
+        document.write(x +"<br/>") // script안에서는 "<br/>" 형태로 해야함
+        x = x + 10;
+        document.write(x +"<br/>");
+        x = x + 10;
+        document.write(x +"<br/>");
+        x = x + 10;
+        document.write(x +"<br/>");
+        
+        let y = prompt("입력") //알림창
+        // document.write(y);
+        y = parseInt(y); // 문자열값 정수형으로 반환해서 y에 대입
+        // document.write("<br/>")
+
+        for(; y <= 10; y++){ //초기값 x, 입력받은값 y가 10보다 크거나 같으면 1씩증가
+            document.write(y)
+            document.write("<br>")
+        }
+
+
+    </script>
+</body>
+</html>

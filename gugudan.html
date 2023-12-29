@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x = prompt("단 입력")
+        let intValue = parseInt(x);
+        for(; x <=intValue; x++){
+            for(let y = 1; y <=9; y++){
+                let xy = x * y
+                document.write(x + "&nbsp;" + "X" +"&nbsp;" + y + "=" +"&nbsp;"+ xy + "&nbsp;")
+                document.write("<br>")
+            }
+            
+            document.write("<br>")
+        }
+        
+        
+</script>
+</body>
+</html> 
+
+<!-- 곱하는 수(y)가 1일때 단(x)가 2부터 9까지 돈다 -->
